@@ -1,0 +1,14 @@
+/*body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        ".   login . "
+        ".   login . "
+        ".   login . ";
+      justify-items: stretch;
+      grid-template-rows: 1fr 1fr 1fr;
+      height: auto;
+     
+  }*/
+
+  
