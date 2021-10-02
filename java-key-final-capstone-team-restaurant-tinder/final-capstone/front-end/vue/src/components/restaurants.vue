@@ -233,6 +233,8 @@ button:hover {
     grid-template-rows: 75px .3fr .005fr .005fr;
     /*height: 100vw; implement at later time- @mediaqueries???*/ 
     height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
     grid-template-areas:
     "h1 h1"
     "restaurantDetails imageGrid"

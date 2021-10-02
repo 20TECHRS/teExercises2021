@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="cityContainer">
     <select name="cityDropdownMenu" class="dropdown" v-model="latLongString">
         <option value="" selected disabled hidden>Select a City</option>
         <option value="33.4484, -112.0740">Phoenix, AZ</option>
@@ -95,6 +95,15 @@ export default {
 
 .buttonWrapper {
     margin: 15px;
+}
+
+#cityContainer{
+    border-style: outset;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: rgba(190, 186, 186, 0.911);
+    border-color: rgba(92, 92, 92, 0.842);
+    
 }
 
 </style>

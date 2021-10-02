@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="preferenceContainer">
     <h4>Cuisine Filters: </h4>
     <p>{{CurrentUserCuisine1}}</p>
     <p>{{CurrentUserCuisine2}}</p>
@@ -79,6 +79,14 @@ export default {
 
 .editPrefBtn:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#preferenceContainer{
+  border-style: outset;
+  border-width: medium;
+  border-radius: 10px;
+  background-color: rgba(190, 186, 186, 0.911);
+  border-color: rgba(92, 92, 92, 0.842);
 }
 </style>
 

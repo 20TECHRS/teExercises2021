@@ -1,3 +1,4 @@
+
 <template>
     <div class="descriptionGrid">
             <button type="button" id="description" class="collapsible" v-on:click.prevent="collapse">See Description</button>
@@ -28,7 +29,7 @@
 </template>
 
 <script>
-import restaurantsVue from './restaurants.vue'
+
 export default {
     name: 'restaurants-details',
 
@@ -113,6 +114,7 @@ grid-area: description;
 }
 
 .descriptionGrid {
+    
     display: grid;
     grid-template-areas:
     "description"
